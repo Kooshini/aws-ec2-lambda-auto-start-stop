@@ -1,0 +1,10 @@
+rule name
+training-stop-instances
+desc
+stops the training instances on a time schedule
+rule name
+training-start-instances
+desc
+starts the training instances on a time schedule
+cron
+cron(0 17 ? * MON-FRI *)
